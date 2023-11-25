@@ -1,0 +1,910 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	}
+
+body {
+	background-color: #131313;
+	margin: 0;
+	text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+h1, h2, h3, h4, p{
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width:100%;
+	margin:0 auto;
+	background:#333;
+}
+	
+/* ========選單區=========== */
+.menu{
+	position:fixed;
+	top:0px;
+	height:60px;
+	width:100%;
+	bottom:0;
+	z-index:1000;
+	background-color: #EEE;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+.menu ul{
+	width:600px;
+	height:60px;
+	margin:0 auto;
+	
+}
+
+.menu li{
+	width:auto;
+	height:42px;
+	display: block;
+	float:left;
+	margin:0 auto;
+	padding:18px 25px 0px 25px;
+	text-align:center;
+	font-family:"Microsoft JhengHei UI Light";
+	letter-spacing:0px;
+	cursor: pointer;}
+
+.menuli span{
+	color:#2f2f2f;
+	font-size:21px;
+}
+
+.menuli strong{
+	color:#2f2f2f;
+	border:2px solid #2f2f2f;
+	border-top:0px;
+	border-bottom:0px;
+	padding-left:8px;
+	padding-right:8px;
+}
+
+/* ========內容區(Index)=========== */
+.contain_index{
+	width:100%;
+}
+
+#Map_index{
+	border:thin;
+	border-bottom-color:#FFF;
+}
+
+map *:focus{
+outline:none;
+}
+
+.clickeffects{
+	width:100%;
+}
+
+/* ========內容區(Life)=========== */
+.contain_life01{
+	width:100%;
+	height:720px;
+}
+
+.bio01{
+	padding:80px 0px 60px 0;
+	width:900px;
+	margin-top:60px;
+	margin-bottom:80px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.kon{
+	float:left;
+	width:50%;
+	border-color:yellow;
+	opacity:0;
+}
+
+.biop01{
+	color:#FFF;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-left:30px;
+	padding-top:10px;
+	float:left;
+	width:45%;
+}
+
+.biop01 p{
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+}
+
+.biop01 h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	color:#FF0;
+}
+
+.contain_life02{
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background-color: #EEE;
+	display:none;
+}
+
+.bio02{
+	width:800px;
+	margin:0 auto;
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+}
+
+.biop02 {
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+}
+
+.biop02 p{
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+}
+
+.lifeimg_left{
+	margin-top:1px;
+	margin-right:0.5px;
+}
+
+.lifeimg_left{
+	margin-top:1px;
+	margin-left:0.5px;
+}
+
+.bioimg{
+	width:800px;
+	margin:auto;
+	position:relative;
+	overflow:hidden;
+}
+
+	
+#blueimg{
+	position:relative;
+	width:800px;
+	height:450.63px;
+	margin:0;
+	overflow:hidden;
+	}
+
+#blueimg p strong{
+	color:#FFFFFF;
+	font-size:20px;
+	position: absolute;
+	display: block;
+	z-index: 1;
+	bottom:-80px;
+	width: 800px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding:30px 0px;
+}
+
+#blueimg p{
+	overflow:hidden;
+}
+
+#blueimg p span{
+	position:absolute;
+	display:block;
+	z-index: 0;
+	top:0px;
+	width: 800px;
+	height: 450.63px;
+	box-shadow: inset 0 0 50px rgba(117,175,213,0.6),
+                inset 0 0 100px rgba(117,175,213,0.3);
+    background: rgba(100,178,243,0.20);
+	opacity:0;
+}
+
+#thousandimg{
+	position:relative;
+	width:395px;
+	height:555.64px;
+	margin:0;
+	overflow:hidden;
+	}
+
+#thousandimg p strong{
+	color:#FFFFFF;
+	font-size:20px;
+	position: absolute;
+	display: block;
+	z-index: 1;
+	bottom:-80px;
+	width: 395px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding:30px 0px;
+}
+
+#thousandimg p{
+	overflow:hidden;
+}
+
+#thousandimg p span{
+	position:absolute;
+	display:block;
+	z-index: 0;
+	top:0px;
+	width: 395px;
+	height: 555.64px;
+	box-shadow: inset 0 0 50px rgba(117,175,213,0.6),
+                inset 0 0 100px rgba(117,175,213,0.3);
+    background: rgba(100,178,243,0.20);
+	opacity:0;
+}
+
+#godfatherimg{
+	position:relative;
+	width:395px;
+	height:555.64px;
+	margin:0;
+	overflow:hidden;
+	}
+
+#godfatherimg p strong{
+	color:#FFFFFF;
+	font-size:20px;
+	position: absolute;
+	display: block;
+	z-index: 1;
+	bottom:-80px;
+	width: 395px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding:30px 0px;
+}
+
+#godfatherimg p{
+	overflow:hidden;
+}
+
+#godfatherimg p span{
+	position:absolute;
+	display:block;
+	z-index: 0;
+	top:0px;
+	width: 395px;
+	height: 555.64px;
+	box-shadow: inset 0 0 50px rgba(117,175,213,0.6),
+                inset 0 0 100px rgba(117,175,213,0.3);
+    background: rgba(100,178,243,0.20);
+	opacity:0;
+}
+
+#agentimg{
+	position:relative;
+	width:395px;
+	height:555.64px;
+	margin:0;
+	overflow:hidden;
+	}
+
+#agentimg p strong{
+	color:#FFFFFF;
+	font-size:20px;
+	position: absolute;
+	display: block;
+	z-index: 1;
+	bottom:-80px;
+	width: 395px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding:30px 0px;
+}
+
+#agentimg p{
+	overflow:hidden;
+}
+
+#agentimg p span{
+	position:absolute;
+	display:block;
+	z-index: 0;
+	top:0px;
+	width: 395px;
+	height: 555.64px;
+	box-shadow: inset 0 0 50px rgba(117,175,213,0.6),
+                inset 0 0 100px rgba(117,175,213,0.3);
+    background: rgba(100,178,243,0.20);
+	opacity:0;
+}
+
+#paprikaimg{
+	position:relative;
+	width:395px;
+	height:555.64px;
+	margin:0;
+	overflow:hidden;
+	}
+
+#paprikaimg p strong{
+	color:#FFFFFF;
+	font-size:20px;
+	position: absolute;
+	display: block;
+	z-index: 1;
+	bottom:-80px;
+	width: 395px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding:30px 0px;
+}
+
+#paprikaimg p{
+	overflow:hidden;
+}
+
+#paprikaimg p span{
+	position:absolute;
+	display:block;
+	z-index: 0;
+	top:0px;
+	width: 395px;
+	height: 555.64px;
+	box-shadow: inset 0 0 50px rgba(117,175,213,0.6),
+                inset 0 0 100px rgba(117,175,213,0.3);
+    background: rgba(100,178,243,0.20);
+	opacity:0;
+}
+
+
+.bio_expand{
+	background-color: #F4F106;
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+	font-size:24px;
+	font-weight:900;
+	cursor:ns-resize;
+	}
+	
+.bio_expand #expandtext{
+	padding:20px 0;
+	margin:0 0 0 45%;
+}
+
+.imgtablelist{
+	margin:0;	
+}
+
+
+/* ========內容區(works)=========== */
+.btn_white {
+	font-size:18px;
+	font-family:"Microsoft JhengHei UI";
+	font-weight:bolder;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	padding:12px 16px;
+	text-decoration:none;
+	color:#333;
+	display:inline-block;
+	background-color:#CCC;
+}
+
+.btn_white:hover {
+	background-color:#FF0;
+	color:#333;
+}
+
+.btn_white:active {
+	position:relative;
+	top:1px;
+}
+
+.btn_black {
+	font-size:18px;
+	font-family:"Microsoft JhengHei UI";
+	font-weight:bolder;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	padding:12px 16px;
+	text-decoration:none;
+	color:#EEE;
+	display:inline-block;
+	background-color:#333;
+}
+
+.btn_black:hover {
+	background-color:#DDD;
+	color:#EEE;
+}
+
+.btn_black:active {
+	position:relative;
+	top:1px;
+}
+
+.ImgmainB{
+	float:left;
+	width:50%;
+	border-color:yellow;
+}
+
+.ImgmainA{
+	float:right;
+	width:50%;
+	border-color:#333;
+}
+
+.contain_works01{
+	width:100%;
+	height:720px;
+}
+
+.Perfect_Blue{
+	padding:40px 0px;
+	width:900px;
+	margin-top:60px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.PerfectBluep{
+	color:#FFF;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-left:30px;
+	float:left;
+	width:45%;
+}
+
+.PerfectBluep p{
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+}
+
+.PerfectBluep p b{
+	color:#FFF;
+	font-size:24px;
+	letter-spacing:1px;
+	line-height:36px;
+}
+
+.PerfectBluep h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	color:#FF0;
+}
+
+.contain_work02{
+	width:100%;
+	height:750px;
+	background-color:#EEE
+}
+
+.Millennium_Actress{
+	padding-top:40px;
+	width:900px;
+	margin:auto;
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+}
+
+.Millennium_Actressp{
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-right:30px;
+	float:right;
+	width:45%;
+}
+
+.Millennium_Actressp p{
+	color:#2f2f2f;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+}
+
+.Millennium_Actressp p b{
+	color:#2f2f2f;
+	font-size:24px;
+	letter-spacing:1px;
+	line-height:36px;
+}
+
+.Millennium_Actressp h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	color:#2f2f2f;
+}
+
+.contain_works03{
+	width:100%;
+	height:680px;
+}
+
+.Tokyo_Godfathers{
+	width:900px;
+	margin:40px auto;
+}
+
+.TokyoGodfathersp{
+	color:#FFF;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-left:30px;
+	float:left;
+	width:45%;
+}
+
+.TokyoGodfathersp p{
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+}
+
+.TokyoGodfathersp p b{
+	color:#FFF;
+	font-size:24px;
+	letter-spacing:1px;
+	line-height:36px;
+}
+
+.TokyoGodfathersp h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	color:#FF0;
+}
+
+.contain_work04{
+	width:100%;
+	height:730px;
+	background-color:#EEE
+}
+
+.contain_works05{
+	width:100%;
+	height:680px;
+}
+
+.Paprika{
+	width:900px;
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.Paprikap{
+	color:#FFF;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-left:30px;
+	float:left;
+	width:45%;
+}
+
+.Paprikap p{
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+}
+
+.Paprikap p b{
+	color:#FFF;
+	font-size:24px;
+	letter-spacing:1px;
+	line-height:36px;
+}
+
+.Paprikap h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	color:#FF0;
+}
+
+/* ========內容區(analysis)=========== */
+.table_iframe{
+	margin:0;
+}
+
+table{
+	margin:15px 150px 0 0;
+}
+
+ol{
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+	padding-left:45px;
+}
+
+.contain_analysis01{
+	width:100%;
+	height:auto;
+}
+
+.Intro{
+	padding:40px 0px;
+	width:900px;
+	margin-top:60px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.Introp{
+	color:#FFF;
+	font-family:"Microsoft JhengHei UI Light";
+	width:880px;
+	margin-left:15px;
+}
+
+.Introp p{
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+}
+
+.Introp h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin-bottom:5px;
+	color:#FF0;
+}
+
+.contain_analysis02{
+	width:100%;
+	height:auto;
+	background-color:#EEE;
+	display:none;
+}
+
+.Transitions{
+	padding-top:10px;
+	padding-bottom:40px;
+	width:900px;
+	margin:0 auto;
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+}
+
+.Transitionsp{
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-right:30px;
+	width:880px;
+}
+
+.Transitionsp p{
+	color:#2f2f2f;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+	margin-top:15px;
+}
+
+.Transitionsp h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	color:#2f2f2f;
+	margin-bottom:5px;
+}
+
+.Transitionsp h3{
+	font-size:30px;
+	font-weight: bolder;
+	padding:0;
+	margin:25px 15px 0 0;
+	color:#2f2f2f;
+	margin-bottom:5px;
+}
+
+.contain_analysis03{
+	width:100%;
+	height:auto;
+	background-color:#333;
+	display:none;
+}
+
+.Montage{
+	padding-top:10px;
+	padding-bottom:40px;
+	width:900px;
+	margin:auto;
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+}
+
+.Montagep{
+	color:#FFF;
+	font-family:"Microsoft JhengHei UI Light";
+	width:880px;
+	margin-left:15px;
+}
+
+.Montagep p{
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+	margin-top:15px;
+}
+
+.Montagep h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	color:#FF0;
+	margin-bottom:5px;
+}
+
+.analysis_expand01{
+	background-color: #EEE;
+	font-size:32px;
+	font-weight: bolder;
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+	cursor:ns-resize;
+	}
+	
+.expandtext{
+	padding:20px 0;
+	margin:0 0 0 28%;
+}
+
+.analysis_expand02{
+	background-color: #333;
+	font-size:32px;
+	font-weight: bolder;
+	color:#EEE;
+	font-family:"Microsoft JhengHei UI Light";
+	cursor:ns-resize;
+	}
+
+.analysis_expand03{
+	background-color: #EEE;
+	font-size:32px;
+	font-weight: bolder;
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+	cursor:ns-resize;
+	}
+
+.analysis_expand04{
+	background-color: #333;
+	font-size:32px;
+	font-weight: bolder;
+	color:#EEE;
+	font-family:"Microsoft JhengHei UI Light";
+	cursor:ns-resize;
+	}
+
+.analysis_expand05{
+	background-color: #EEE;
+	font-size:32px;
+	font-weight: bolder;
+	color:#2f2f2f;
+	font-family:"Microsoft JhengHei UI Light";
+	cursor:ns-resize;
+	}
+
+.analysis_expand06{
+	background-color: #333;
+	font-size:32px;
+	font-weight: bolder;
+	color:#EEE;
+	font-family:"Microsoft JhengHei UI Light";
+	cursor:ns-resize;
+	}
+
+/* ========內容區(trailer)=========== */
+.contain_trailer{
+	width:100%;
+	height:3440px;
+	background-color:#333;
+	margin-top:60px;
+}
+
+.trailer01{
+	padding-top:40px;
+	width:900px;
+	margin:auto;
+	color:#FFF;
+	font-family:"Microsoft JhengHei UI Light";
+}
+
+.trailerp01 {
+	color:#FFF;
+	font-family:"Microsoft JhengHei UI Light";
+}
+
+.trailerp02 {
+	color:#FFF;
+	font-family:"Microsoft JhengHei UI Light";
+	margin-top:0px;
+}
+
+.trailerp01 p{
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+}
+
+.trailerp01 h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	color:#FF0;
+}
+
+.trailerp02 p{
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:24px;
+}
+
+.trailerp02 h2{
+	font-size:40px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	color:#FF0;
+}
+
+.iframe_trailer{
+	border:#FF0 2px double;
+	margin-left:10px;
+	margin-bottom:40px;
+}
+
+/* ========版權區=========== */
+.footer {
+    background: #131313;
+    height: 103px;
+	width: 100%;
+    margin: 0;
+    overflow: hidden;
+	color:#FFF;
+	font-weight:900;
+	font-family: 'TradeGothicLTPro-Cn18', sans-serif;
+	z-index:1000;
+}
+
+.footer h2{
+	text-align:center;
+	font-weight:500;
+	margin-top:45px;
+}
